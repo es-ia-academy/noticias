@@ -108,50 +108,204 @@
   }</style>
       
       <!--HTML-->
-      <div id="SpMJLNt" data-type="html">
-        <grid-container id="vgPaXPY">
+      <div id="SpMJLNt" data-type="html"><grid-container id="vgPaXPY">
+  <grid-bg id="oHEQXyQ" data-type="grid-bg">
+    <!-- bg-color -->
+    <div id="ltBRjss" data-type="bg-color" class="div-visible">
+      <div id="TXnmbAh" data-type="solid-color" class="div-visible" style="background: rgb(0, 0, 0);"></div>
+      <div id="WMmWRJh" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
+      <div id="GdEzuny" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
+    </div>
+    <!-- bg-image -->
+    <div id="bJwYJRE" data-type="bg-image" class="div-hidden">
+      <picture id="ZmUmUyp">
+        <source srcset="" media="(max-width:640px)">
+        <source srcset="" media="(min-width:641px) and (max-width:1024px)">
+        <img id="otHiioH" src="https://raw.githubusercontent.com/IAMEDIA360/images/main/1707848593-1.webp" data-type="img-bg" loading="lazy">
+      </picture>
+    </div>
+    <!-- bg-video -->
+    <div id="dvveYuV" data-type="bg-video" class="div-hidden">
+      <video id="jKZzOuF" autoplay="" loop="" muted="" loading="lazy">
+        <source src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4" type="video/mp4" data-type="image-fg">
+      </video>
+    </div>
+  </grid-bg>
+  <grid-box id="bdBFbxN">
+    <grid-item id="VdDnGMY">
+      <h2 id="LClcIvq" contenteditable="true">Lorem ipsum</h2>
+      <p id="wavdrnp" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl nisi scelerisque eu ultrices vitae auctor eu augue. Donec ac odio tempor orci dapibus ultrices in iaculis nunc.</p>
+      <grid-box id="NoPinVf">
+        <grid-item id="sIMflmd">
+          <a id="bZREOYG" href="#" contenteditable="true">Lorem ipsum</a>
+          <button class="no-export button-delete-item" onclick="deleteItem('sIMflmd')">-</button>
+        </grid-item>
+        <button id="pkFDcic" class="no-export grid-add-item" onclick="itemsButtons('NoPinVf','pkFDcic')">+</button>
+      </grid-box>
+    </grid-item>
+    <grid-item id="omLMRJr">
+      <video id="MQCQAih" class="grid-item" autoplay="" loop="" muted="" data-type="video-fg" loading="lazy">
+        <source src="https://github.com/IAMEDIA360/videos/raw/main/1795203691-1.mp4" type="video/mp4">
+      </video>
+    </grid-item>
+  </grid-box>
+</grid-container></div>
+      
+      <!--JS-->
+      <script id="Oepurqw" data-type="js"></script>
+      <!--EDIT-->
+      <button class="toolbar-open" onclick="toolsOpenModal(this)"></button>
+  </section>
+  
+  <section id="VkWklrg" data-type="section">
+      
+      <!--CSS-->
+      <style id="IeDHrbf" type="text/css" data-type="css" data-size="laptop" data-content="section">
+  grid-container#vDffySE {
+    position: relative;
+  }
+
+  grid-bg#SgmbOYi {
+    position: absolute;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    display:block;
+  }
+  div#oKwmkwc,
+  div#AiQsYLo,
+  div#LLWRcxD,
+  div#dScsVcn{
+    height:100%;
+    width:100%;
+  }
+
+  div#xiwyfFg{
+    height:100%;
+    width:100%;
+    
+  }
+
+  div#vSlcdSu{
+    height:100%;
+    width:100%;
+    
+  }
+
+  img#ivTbyjF {
+    object-fit:cover;
+    height:100%;
+    width:100%;
+  }
+
+  video#jUTVeiq {
+    object-fit:cover;
+    height:100%;
+    width:100%;
+  }
+  
+  grid-box#oDKwKaa{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    width: 100%;
+    height: 100%;
+    place-content: center;
+  }
+  grid-item#EsOmMjf{
+    display: grid;
+    place-content: center;
+    padding: 15%;
+    gap: 15px;
+    height: auto;
+    min-height: 50vh;
+  }
+
+  img#egpwPsN{
+    object-fit:cover;
+    height:100%;
+    width:100%;
+  }
+  h2#BgfkUgV{
+    color:white;
+    font-size:clamp(24px,3vw,34px);
+    line-height: 1;
+  }
+  p#oLlniMG{
+    color:white;
+    font-size:14px;
+  }
+
+  #GSYfzcN{
+    display: flex;
+    gap: 10px;
+    flex-flow: wrap;
+  }
+
+  #GSYfzcN a{
+    border: 3px solid white;
+    padding: 0 15px;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    text-underline-position: under;
+    height: 50px;
+    width: fit-content;
+    display: grid;
+    place-content: center;
+  }
+  
+  </style>
+      <style id="vLVXAgW" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style>
+      <style id="TeNPLTe" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){
+  grid-box#oDKwKaa{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  }</style>
+      
+      <!--HTML-->
+      <div id="yBisVCz" data-type="html">
+        <grid-container id="ihSzeAi">
         
-        <grid-bg id="oHEQXyQ" data-type="grid-bg">
+        <grid-bg id="SgmbOYi" data-type="grid-bg">
           <!-- bg-color -->
-          <div id="ltBRjss" data-type="bg-color" class="div-visible">
-            <div id="TXnmbAh" data-type="solid-color" class="div-visible" style="background: rgb(0, 0, 0);"></div>
-            <div id="WMmWRJh" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
-            <div id="GdEzuny" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
+          <div id="oKwmkwc" data-type="bg-color" class="div-visible">
+            <div id="AiQsYLo" data-type="solid-color" class="div-visible" style="background: rgb(0, 0, 0);"></div>
+            <div id="LLWRcxD" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
+            <div id="dScsVcn" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
           </div> 
           <!-- bg-image -->
-          <div id="bJwYJRE" data-type="bg-image" class="div-hidden">
-            <picture id="ZmUmUyp">
+          <div id="xiwyfFg" data-type="bg-image" class="div-hidden">
+            <picture id="HAlnmOT">
               <source srcset="" media="(max-width:640px)">
               <source srcset="" media="(min-width:641px) and (max-width:1024px)">
-              <img id="otHiioH" src="https://raw.githubusercontent.com/IAMEDIA360/images/main/1707848593-1.webp" data-type="img-bg" loading="lazy">
+              <img id="ivTbyjF" src="https://raw.githubusercontent.com/IAMEDIA360/images/main/1707848593-1.webp" data-type="img-bg" loading="lazy">
             </picture>
           </div> 
           <!-- bg-video -->
-          <div id="dvveYuV" data-type="bg-video" class="div-hidden">
-            <video id="jKZzOuF" autoplay="" loop="" muted="" loading="lazy">
+          <div id="vSlcdSu" data-type="bg-video" class="div-hidden">
+            <video id="jUTVeiq" autoplay="" loop="" muted="" loading="lazy">
               <source src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4" type="video/mp4">
             </video>
           </div> 
         </grid-bg>
 
-        <grid-box id="bdBFbxN">
+        <grid-box id="oDKwKaa">
             
-            <grid-item id="VdDnGMY">
-                <h2 id="LClcIvq" contenteditable="true">Lorem ipsum</h2>
-                <p id="wavdrnp" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl nisi scelerisque eu ultrices vitae auctor eu augue. Donec ac odio tempor orci dapibus ultrices in iaculis nunc.</p>
-                <grid-box id="NoPinVf">
-                  <grid-item id="sIMflmd">
-        <a id="bZREOYG" href="#" contenteditable="true">Lorem ipsum</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('sIMflmd')">-</button>
-    </grid-item><button id="pkFDcic" class="no-export grid-add-item" onclick="itemsButtons('NoPinVf','pkFDcic')">+</button>
+            <grid-item id="EsOmMjf">
+                <h2 id="BgfkUgV" contenteditable="true">Lorem ipsum</h2>
+                <p id="oLlniMG" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl nisi scelerisque eu ultrices vitae auctor eu augue. Donec ac odio tempor orci dapibus ultrices in iaculis nunc.</p>
+                <grid-box id="GSYfzcN">
+                  <grid-item id="OZSzctJ">
+        <a id="IhHXJKQ" href="#" contenteditable="true">Lorem ipsum</a>
+        <button class="no-export button-delete-item" onclick="deleteItem('OZSzctJ')">-</button>
+    </grid-item><button id="BapTVvq" class="no-export grid-add-item" onclick="itemsButtons('GSYfzcN','BapTVvq')">+</button>
                 </grid-box>
                 
             </grid-item>
 
-            <grid-item id="omLMRJr">
-              <video id="MQCQAih" class="grid-item" autoplay="" loop="" muted="" data-type="video-fg" loading="lazy">
-                <source src="https://github.com/IAMEDIA360/videos/raw/main/1795203691-1.mp4" type="video/mp4">
-              </video>    
+            <grid-item id="uoMcsbc">
+                <img id="egpwPsN" src="https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwxMjl8fGFic3RyYWN0fGVufDB8MHx8fDE3MTY2NjYyNDR8MA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" data-type="image-fg" loading="lazy">
             </grid-item>
 
           </grid-box>
@@ -159,7 +313,7 @@
       </div>
       
       <!--JS-->
-      <script id="Oepurqw" data-type="js"></script>
+      <script id="LMDZSJL" data-type="js"></script>
       <!--EDIT-->
       <button class="toolbar-open" onclick="toolsOpenModal(this)"></button>
   </section>
